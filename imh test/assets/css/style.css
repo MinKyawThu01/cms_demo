@@ -65,20 +65,30 @@ body {
 /* service  */
 #service .sRight{
     float: left;
-    width: 60%;
+    width: 70%;
 }
 
 #service .sLeft{
     float: right;
-    width: 40%;
+    width: 30%;
 }
 
-#service .location{
+#service .bi{
     width: 20px;
     height: auto;
+    color: #F88800 !important;
 }
 
 #service a {
     text-decoration: none;
     color: black;
   }
+
+  #service .cat-img{
+    width: 25px;
+    height: auto;
+  }
+
+  
+
+  
