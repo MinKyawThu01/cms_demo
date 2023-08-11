@@ -1,12 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: #fafafa !important;
+body {
+  background-color: #fafafa !important;
 }
 
-#nav{
-    background-color: rgb(58, 41, 41) !important;
+/* nav start */
+#nav {
+  background-color: #fff !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px 0px ;
+  margin-bottom: 15px;
 }
+
+#nav .logo{
+    width: 100px;
+    height: auto;
+}
+
+#nav ul li {
+  list-style: none;
+  float: left;
+  padding: 0px 15px 0px 0px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav img{
+    width: 20px;
+    height: auto;
+}
+
+#nav ul{
+    float: right;
+}
+.clr {clear: both;}
+/* nav end */
+
+/* img-box start */
+#img-box{
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+#img-box .hotel-img{
+    max-width: 100%;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+
+#img-box .swimming-img{
+    max-width: 100%;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+/* img-box end */
+
+/* service  */
+#service .sRight{
+    float: left;
+    width: 60%;
+}
+
+#service .sLeft{
+    float: right;
+    width: 40%;
+}
+
+#service .location{
+    width: 20px;
+    height: auto;
+}
+
+#service a {
+    text-decoration: none;
+    color: black;
+  }
