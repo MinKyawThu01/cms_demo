@@ -11,13 +11,13 @@ body {
 #nav {
   background-color: #fff !important;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 20px 0px ;
+  padding: 20px 0px;
   margin-bottom: 15px;
 }
 
-#nav .logo{
-    width: 100px;
-    height: auto;
+#nav .logo {
+  width: 100px;
+  height: auto;
 }
 
 #nav ul li {
@@ -31,69 +31,78 @@ body {
   color: black;
 }
 
-#nav img{
-    width: 20px;
-    height: auto;
+#nav a:hover {
+  color: #f88800;
 }
 
-#nav ul{
-    float: right;
+#nav img {
+  width: 20px;
+  height: auto;
 }
-.clr {clear: both;}
+
+#nav ul {
+  float: right;
+}
+.clr {
+  clear: both;
+}
 /* nav end */
 
 /* img-box start */
-#img-box{
-    background-color: #ffffff;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 10px;
-
+#img-box {
+  background-color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
 }
 
-#img-box .hotel-img{
-    max-width: 100%;
-    /* padding: 10px; */
-    border-radius: 10px;
+#img-box .hotel-img {
+  max-width: 100%;
+  /* padding: 10px; */
+  border-radius: 10px;
 }
 
-#img-box .swimming-img{
-    max-width: 100%;
-    /* padding: 10px; */
-    border-radius: 10px;
+#img-box .swimming-img {
+  max-width: 100%;
+  /* padding: 10px; */
+  border-radius: 10px;
 }
 /* img-box end */
 
 /* service  start*/
-#service .sRight{
-    float: left;
-    width: 75%;
+#service .sRight {
+  float: left;
+  width: 75%;
 }
 
-#service .sLeft{
-    float: right;
-    width: 25%;
+#service .sLeft {
+  float: right;
+  width: 25%;
 }
 
-#service .bi{
-    width: 20px;
-    height: auto;
-    color: #F88800 !important;
+#service .bi {
+  width: 20px;
+  height: auto;
+  color: #f88800 !important;
 }
 
 #service a {
-    text-decoration: none;
-    color: black;
-  }
+  text-decoration: none;
+  color: black;
+}
 
-  #service .cat-img{
-    width: 25px;
-    height: auto;
-  }
+#service a:hover {
+  color: #f88800;
+}
 
-  #service .map{
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  }
+#service .cat-img {
+  width: 25px;
+  height: auto;
+}
+
+#service .map {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 /* service end */
 
 /* room start */
@@ -102,93 +111,122 @@ body {
   width: 60%;
 }
 
-#room .room-img{
-  max-width: 100% ;
+#room .room-img {
+  max-width: 100%;
   height: 300px;
   border-radius: 15px !important;
 }
 
-#room .bed-img{
+#room .bed-img {
   width: 20px;
   height: auto;
 }
-  
-#room h2{
-  color: #F88800;
+
+#room h2 {
+  color: #f88800;
 }
 
-#room input[type=checkbox]{
-  accent-color: #F88800;
+#room input[type="checkbox"] {
+  accent-color: #f88800;
   mix-blend-mode: multiply;
 }
 
-#room a{
+#room a {
   color: #c6c6c6;
 }
 
-.mm{
-  font-weight: 800 ;
+#room a:hover {
+  color: #f88800;
 }
 
-#room .spam{
+.mm {
+  font-weight: 800;
+}
+
+#room .spam {
   display: inline;
 }
 
-button{
-  background-color: #F88800;
+button {
+  background-color: #f88800;
   border: none;
   width: 30px;
   padding: 5px;
 }
 
-.btn-1{
+.btn-1 {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.btn-2{
+.btn-2 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.btn-3{
+.btn-3 {
   border-radius: 5px;
   width: auto;
   padding: 5px 10px 10px 10px;
 }
 
-#room .rType{
-  background-color: #FFFFFF !important;
+#room .rType {
+  background-color: #ffffff !important;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 10px;
 }
 /* #room end */
 
 /* checkout start */
-#checkout{
+#checkout {
   float: right;
   width: 38%;
-  background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
   border: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#checkout .checkout-img{
+#checkout .checkout-img {
   border-radius: 15px;
 }
 
-
-#checkout .del{
-  width:fit-content;
+#checkout .del {
+  width: fit-content;
   font-size: 10px;
   display: inline;
   border-radius: 5px;
-  background-color: #F85B5A;
-  color: #FDC7C7;
+  background-color: #f85b5a;
+  color: #fdc7c7;
 }
 
+#checkout .line1 {
+  max-width: 470px;
+  border-top: 2px solid #d3d3d3;
+}
 
+#checkout .line2 {
+  max-width: 470px;
+  border-top: 2px dashed #d3d3d3;
+}
 
+#checkout .price {
+  color: #f88800 !important;
+}
+
+#checkout .confirm {
+  border-radius: 5px;
+}
 /* checkout end  */
 
-  
+.confirm:hover {
+  background-color: #f8ab4e;
+}
+.btn-1:hover {
+  background-color: #f8ab4e;
+}
+.btn-2:hover {
+  background-color: #f8ab4e;
+}
+.btn-3:hover {
+  background-color: #f8ab4e;
+}
