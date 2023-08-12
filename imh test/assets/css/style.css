@@ -97,10 +97,10 @@ body {
 /* service end */
 
 /* room start */
-/* #room {
+#room {
   float: left;
   width: 60%;
-} */
+}
 
 #room .room-img{
   max-width: 100% ;
@@ -165,10 +165,29 @@ button{
 /* #room end */
 
 /* checkout start */
-/* #checkout{
+#checkout{
   float: right;
-  width: 40%;
-} */
+  width: 38%;
+  background-color: #FFFFFF !important;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#checkout .checkout-img{
+  border-radius: 15px;
+}
+
+
+#checkout .del{
+  width:fit-content;
+  font-size: 10px;
+  display: inline;
+  border-radius: 5px;
+  background-color: #F85B5A;
+  color: #FDC7C7;
+}
+
+
 
 /* checkout end  */
 
