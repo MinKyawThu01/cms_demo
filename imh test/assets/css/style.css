@@ -213,6 +213,10 @@ button {
   color: #f88800 !important;
 }
 
+#checkout .total-sub{
+  font-size: 15px;
+}
+
 #checkout .confirm {
   border-radius: 5px;
 }
